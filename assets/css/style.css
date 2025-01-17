@@ -5,15 +5,24 @@
 :root {
     --primary-font: "Open-sans", sans-serif;
     --secondary-font: "Montserrat", Sans;
-    --primary-color: rgb(248, 151, 5);
+    --primary-color: rgba(255, 145, 0, 0.692);
     /* yellow orange */
 
     /* --secondary-color: ;*/
-    --secondary-color: rgb(238, 67, 96);
+    --secondary-color: rgba(128, 0, 128, 0.219);
+    --highlight-color: rgb(248, 59, 91);
+    --highlight-color-light: pink;
+
 
 }
 
+
 /* Global Styles */
+
+body {
+    font-family: var(--primary-font);
+    padding-top: 57.15px; 
+}
 
 .align-center {
     display: flex;
@@ -36,7 +45,7 @@ h3 {
     width: 40px;
 }
 
-.tour-button {
+.book-now {
     margin: auto;
     max-width: 110px;
     margin-inline: auto;
@@ -53,7 +62,7 @@ main {
 
 /* Navigation Bar */
 #nav {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     text-align: center;
 }
 
@@ -85,9 +94,9 @@ main {
     object-fit: contain;
 }
 
-/* Services */
+/* packages */
 
-#services .card-footer {
+#packages .card-footer {
     font-weight: bold;
     color: var(--highlight-color);
     background-color: transparent;
@@ -119,10 +128,6 @@ main {
 }
 /* Game library cards */
 
-#new-games .card,
-#fav-games .card {
-    border: none;
-}
 
 /* Footer section */
 footer {

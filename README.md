@@ -17,78 +17,63 @@ Carnival Star is a website for online booking and informational queries. This pl
   - The navigation bar contains clickable texts such as home, which leads to the first page, packages which leads to the part of the page where the promos are offered, events and an option to book a slot.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Navigation Bar] (assets/images/readme_images/nav bar.png)
 
-- __The landing page image__
+- __Carousel pictures__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - This carousel includes a few images that autoswipes and can be navigated by clicking the next and previous arrow buttons
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
-- __Club Ethos Section__
+![Landing Page](assets/images/readme_images/carousel.png)
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+- __Packages Section__
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+  - The Packages section shows the promos a person may avail. It contains the number of people it includes, the age group, and also the prices.
+  - The viewer will see the better offers Star Carnival provides for all. 
+
+![Club Ethos](assets/images/readme_images/packages.png)
 
 - __Meetup Times section__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
+  - This section provides the enumeration of events and dates when such events are going to take place
   - This section will be updated as these times change to keep the user up to date. 
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Meetup Times](assets/images/readme_images/availability.png)
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section includes links to the relevant social media sites for Star Carnival. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer also contain the opening and closing time and days of Star Carnival.
+  - The footer is valuable to the user as it encourages them to keep connected via social media as well as the necessary contact information.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](assets/images/readme_images/footer.png)
 
-- __Gallery__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+- __Booking Page__
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+  - This page will allow the user to book a slot reservation and pick a promo of their choice online. The user will be asked to submit their full name and email address. 
 
-- __The Sign Up Page__
-
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Sign Up](assets/images/readme_images/booking.png)
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-
-- Another feature idea
-
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+The website runs in terms of information, navigation and buttons.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+It has been tested a few times on different devices as well.
 
 
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official [W3C validator](assets/images/readme_images/html-validation.png)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(Jigsaw) validator](assets/images/readme_images/css-validation.png)
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+There are no unfixed bugs.
 
 ## Deployment
 
@@ -99,42 +84,32 @@ This section should describe the process you went through to deploy the project 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://github.com/jammy-8/carnival-star/blob/main/index.html
 
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+__Images__
+- https://c0.klipartz.com/pngpicture/167/216/sticker-png-kirby-s-return-to-dream-land-kirby-super-star-ultra-kirby-s-epic-yarn-kirby-s-adventure-hooray.png
+- https://media.istockphoto.com/id/955152328/photo/carnival-celebration-event-at-curacao-two-women-dressing-costumes-watch-the-parade.jpg?s=612x612&w=0&k=20&c=JF6nF7iAVvGAt6JUHZagtrtfv2lk_T_njPOxtr5fIRs=
+- https://catholicweekly.com.au/wp-content/uploads/2020/03/O68Z3N0-scaled.jpg
+- https://t4.ftcdn.net/jpg/01/87/46/65/360_F_187466557_4p1Ojx57J7GwxMUiZqYV957D1zaavWHp.jpg
+- https://jacoblund.com/cdn/shop/products/photo-id-2084854825029-group-of-people-having-a-party_1200x800.jpg?v=1563829158
+- https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSA8Fbb2_hlJR_5JvvM3BleNWWpj_4Ck9MCYd0uI7RNcvSIwXueYPOE38RhbZ7fqalxoY&usqp=CAU
+- https://www.bpmcdn.com/f/files/vernon/import/2023-02/31794395_web1_230209-VMS-Carnival-photos-balloons_3.jpg;w=960;h=640;bgcolor=000000
+- https://static.wixstatic.com/media/2fcea2e8bd564e9ebd24e44dde8e0179.jpg/v1/fill/w_980,h_653,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/2fcea2e8bd564e9ebd24e44dde8e0179.jpg
+- https://i0.wp.com/awesome.blog/wp-content/uploads/2006/02/105075230_3b8464f2a7-1.jpg?quality=89&ssl=1
+- https://img.freepik.com/premium-photo/golden-mask-star-glitter-purim-carnival-decoration_1208970-76053.jpg?w=360
+- https://img.freepik.com/premium-photo/golden-mask-star-glitter-purim-carnival-decoration_1208970-76053.jpg?w=360
+- blob:https://favicon.io/8b128aaa-55d8-44fe-b443-2182449b5c59
+- https://c8.alamy.com/comp/2XY6BGT/cute-kawaii-star-character-takes-a-selfie-isolated-cartoon-vector-cool-twinkle-personage-wearing-sunglasses-with-happy-smile-rosy-cheeks-and-cheerful-face-snaps-a-mobile-shots-radiating-pure-joy-2XY6BGT.jpg
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
+- The text for the Home page was personally composed by the student.
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
 - The photos used on the home and sign up page are from This Open Source site
 - The images used for the gallery page were taken from this other open source site
-
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 

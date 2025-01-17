@@ -98,7 +98,7 @@ main {
 
 #packages .card-footer {
     font-weight: bold;
-    color: var(--highlight-color);
+    color: var(--highlight-color-light);
     background-color: transparent;
 }
 

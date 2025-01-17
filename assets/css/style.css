@@ -5,13 +5,13 @@
 :root {
     --primary-font: "Open-sans", sans-serif;
     --secondary-font: "Montserrat", Sans;
-    --primary-color: rgba(255, 145, 0, 0.692);
+    --primary-color: #ff9100b0;
     /* yellow orange */
 
     /* --secondary-color: ;*/
-    --secondary-color: rgba(141, 62, 141, 0.836);
-    --highlight-color: rgb(248, 59, 91);
-    --highlight-color-light: pink;
+    --secondary-color: #a878a8d5;
+    --highlight-color: #eec5c2;
+    --highlight-color-light: #eb526c;
 
 
 }
@@ -62,7 +62,7 @@ main {
 
 /* Navigation Bar */
 #nav {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     text-align: center;
 }
 
@@ -131,7 +131,7 @@ main {
 
 /* Footer section */
 footer {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     color: white;
     margin-bottom: 0;
 }

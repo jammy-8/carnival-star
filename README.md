@@ -101,7 +101,7 @@ __Images__
 - https://i0.wp.com/awesome.blog/wp-content/uploads/2006/02/105075230_3b8464f2a7-1.jpg?quality=89&ssl=1
 - https://img.freepik.com/premium-photo/golden-mask-star-glitter-purim-carnival-decoration_1208970-76053.jpg?w=360
 - https://img.freepik.com/premium-photo/golden-mask-star-glitter-purim-carnival-decoration_1208970-76053.jpg?w=360
-- blob:https://favicon.io/8b128aaa-55d8-44fe-b443-2182449b5c59
+- https://favicon.io/8b128aaa-55d8-44fe-b443-2182449b5c59
 - https://c8.alamy.com/comp/2XY6BGT/cute-kawaii-star-character-takes-a-selfie-isolated-cartoon-vector-cool-twinkle-personage-wearing-sunglasses-with-happy-smile-rosy-cheeks-and-cheerful-face-snaps-a-mobile-shots-radiating-pure-joy-2XY6BGT.jpg
 
 ### Content 

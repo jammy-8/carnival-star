@@ -199,3 +199,8 @@ address {
         max-height: 285px;
     }
 }
+
+/*-- class named title style --*/
+.title {
+    background-color: pink;
+}

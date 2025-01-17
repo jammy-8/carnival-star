@@ -5,10 +5,12 @@
 :root {
     --primary-font: "Open-sans", sans-serif;
     --secondary-font: "Montserrat", Sans;
-    --primary-color: rgb(3, 41, 80);
-    /* Blue */
+    --primary-color: rgb(248, 151, 5);
+    /* yellow orange */
 
     /* --secondary-color: ;*/
+    --secondary-color: rgb(238, 67, 96);
+
 }
 
 /* Global Styles */
@@ -83,6 +85,45 @@ main {
     object-fit: contain;
 }
 
+/* Services */
+
+#services .card-footer {
+    font-weight: bold;
+    color: var(--highlight-color);
+    background-color: transparent;
+}
+
+#services .card {
+    margin-bottom: 1.5rem;
+}
+
+/* Events */
+
+#events .table {
+    /* events table font size small enough that 
+      the table doesn't overflow on xs screens. 
+      Size set back to 1rem in a media query 
+      for sm screens and up */
+    font-size: 0.7rem;
+}
+
+.id-proof {
+    background-color: var(--highlight-color);
+    font-weight: bold;
+    color: rgb(122, 0, 86);
+    display: block;
+    max-width: 300px;
+    margin: auto;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+}
+/* Game library cards */
+
+#new-games .card,
+#fav-games .card {
+    border: none;
+}
+
 /* Footer section */
 footer {
     background-color: var(--primary-color);
@@ -104,4 +145,57 @@ footer {
 
 address {
     text-align: center;
+}
+
+/* Media Query */
+/* Small Screens */
+@media screen and (min-width: 300px) {
+    #hero-carousel .carousel-item {
+
+        width: 100%;
+        max-height: 165px;
+    }
+
+    #hero .btn {
+        justify-content: center;
+    }
+
+    /* Medium Screens */
+}
+
+@media screen and (min-width: 500px) {
+    #hero-carousel .carousel-item {
+
+        width: 100%;
+        max-height: 285px;
+    }
+
+    /* Large Screens */
+}
+
+@media screen and (min-width: 800px) {
+    #hero-carousel .carousel-item {
+
+        width: 100%;
+        max-height: 390px;
+    }
+}
+
+/* Extra Large Screens makes transition to 1200px smoother */
+@media screen and (min-width: 1140px) {
+
+    #hero-carousel .carousel-item {
+
+        width: 940px;
+        max-height: 530px;
+    }
+}
+
+/* Extra Large Screens */
+@media screen and (min-width: 1200px) {
+
+    #hero-carousel .carousel-item {
+        width: 580px;
+        max-height: 285px;
+    }
 }

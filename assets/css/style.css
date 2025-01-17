@@ -10,3 +10,41 @@
 
     /* --secondary-color: ;*/
 }
+
+/* Global Styles */
+
+.align-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* General Styles */
+h1, 
+h2,
+h3 {
+    text-align: center;
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+}
+
+.logo {
+    width: 40px;
+}
+
+.tour-button {
+    margin: auto;
+    max-width: 110px;
+    margin-inline: auto;
+    margin-bottom: 20px;
+    background-color: var(--primary-color);
+    }
+
+    /* Pushes the footer to the bottom of the page */
+main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
